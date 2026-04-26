@@ -115,7 +115,7 @@
 | Factual / Single-source | Embedding quality, chunk boundary decisions |
 | Specific details / Dates | Whether metadata (date, author) is preserved in chunks |
 | Multi-doc synthesis | top_k=4 ceiling — may need to raise it |
-| Comparison / Reasoning | Generator quality with llama3.2:3b |
+| Comparison / Reasoning | Generator quality with gemma4:e4b-it-q4_K_M |
 | Attribution / Citation | Whether `[1]`, `[2]` brackets map to correct sources |
 | Out-of-scope | Prompt grounding — does it refuse or hallucinate? |
 | Ambiguous queries | Embedding space behavior under polysemy |

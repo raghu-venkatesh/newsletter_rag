@@ -34,7 +34,7 @@ def load_settings() -> RagSettings:
         chroma_persist_dir=os.getenv("CHROMA_PERSIST_DIR", str(base_dir / "data" / "chroma")),
         chroma_collection=os.getenv("CHROMA_COLLECTION", "newsletter_chunks"),
         embedding_model=os.getenv("OLLAMA_EMBED_MODEL", "nomic-embed-text"),
-        generation_model=os.getenv("OLLAMA_GENERATE_MODEL", "llama3.2:3b"),
+        generation_model=os.getenv("OLLAMA_GENERATE_MODEL", "gemma4:e4b-it-q4_K_M"),
         chunk_size=int(os.getenv("CHUNK_SIZE", "800")),
         chunk_overlap=int(os.getenv("CHUNK_OVERLAP", "120")),
         top_k=top_k_val,
