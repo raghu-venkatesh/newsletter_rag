@@ -1,0 +1,15 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local env (secrets)
+.env
+
+# Chroma persistence (rebuilt by indexer)
+data/chroma/
+
+# Newsletter text corpora kept out of git (put .txt dumps here)
+corpus/
+data/corpus/
+email_txts/

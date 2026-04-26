@@ -1,0 +1,1 @@
+"""Newsletter ingestion utilities."""
